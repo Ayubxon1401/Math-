@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+
+    int a ,i=0;
+    printf("Son kiriting :");
+    scanf("%d",&a);
+    while (a!=0)
+    {
+        a%10;
+        a=a/10;
+        i++;
+    }
+    printf("Son %d xonali\n", i);
+    return 0; 
+}
+//Kiritilgan son necha xonali ekanligini aniqlash
