@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+//a dan b gacha bo'lgan sonlarning raqamlar yig'indisin topuvchi dastur
+
+int main(){
+
+    int a, b , sum=0;
+    printf("Birinchi sonni kiriting :");
+    scanf("%d",&a);
+    printf("Ikkinchi sonni kiriting :");
+    scanf("%d",&b);
+    while (b>=a)
+    {
+        sum+=b;
+        b--;
+    }
+    printf("Sonlar yig'indisi : %d ga teng\n",sum);
+    
+
+    return 0;
+}
